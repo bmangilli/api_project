@@ -12,7 +12,7 @@ Siga os passos abaixo para instalar e executar o projeto em seu ambiente local.
 
 - PHP >= 7.3
 - Composer
-- MySQL|Postgres|SQLServer
+- MySQL | Postgres | SQLServer
 
 ### Passo 1: Clonar o repositório
 
@@ -51,7 +51,7 @@ php artisan migrate
 
 ```bash
 php artisan serve
-    ```
+```
 
 Agora você pode acessar a API no endereço `http://127.0.0.1:8000`.
 
