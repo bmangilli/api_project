@@ -10,4 +10,6 @@ return [
     'error_deleting_task' => 'Error deleting task',
     'tasks_retrieved' => 'Tasks retrieved successfully',
     'task_retrieved' => 'Task retrieved successfully',
+    'max_pending_tasks_reached' => 'User has reached the maximum number of pending tasks', // or 'User cannot have more than 3 pending tasks at the same time'
+    'can_not_update_completed_task' => 'Can not update completed task', // or 'Cannot change the status from completed to pending'
 ];

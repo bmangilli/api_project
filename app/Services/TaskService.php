@@ -32,7 +32,7 @@ class TaskService implements TaskServiceInterface
         $pendingTasksCount = $this->taskRepository->countPendingTasksByUserId($data['user_id']);
 
         if ($pendingTasksCount >= 3) {
-            throw new Exception('User cannot have more than 3 pending tasks at the same time.');
+            throw new Exception(__('messages.max_pending_tasks_reached'), Response::HTTP_UNPROCESSABLE_ENTITY);
         }
 
         return $this->taskRepository->store($data);
@@ -43,7 +43,7 @@ class TaskService implements TaskServiceInterface
         $task = $this->taskRepository->findById($id);
 
         if ($task['status'] === 'completed' && isset($data['status']) && $data['status'] === 'pending') {
-            throw new Exception('Cannot change the status from completed to pending.');
+            throw new Exception(__('messages.can_not_update_completed_task'), Response::HTTP_UNPROCESSABLE_ENTITY);
         }
 
         $updated = $this->taskRepository->update($id, $data);
