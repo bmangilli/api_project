@@ -53,7 +53,7 @@ php artisan migrate
 php artisan serve
 ```
 
-Agora você pode acessar a API no endereço `http://127.0.0.1:8000`.
+Agora você pode acessar a API no endereço `http://127.0.0.1:8000/api`.
 
 📚 Documentação
 Documentação detalhada da API está disponível em [Wiki](https://github.com/bmangilli/api_project/wiki).
