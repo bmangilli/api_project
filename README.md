@@ -1,6 +1,6 @@
 # API Project - Task Management
 
-API Project é um sistema simples de gerenciamento de tarefas desenvolvido com Laravel. Ele permite que os usuários criem, atualizem e excluam tarefas.
+API Project é um sistema simples de gerenciamento de tarefas desenvolvido com Laravel. Ele permite que os usuários listem, visualizem, criem, atualizem e excluam tarefas.
 
 ![Laravel](https://img.shields.io/badge/Laravel-v8.x-orange) ![PHP](https://img.shields.io/badge/PHP-%3E=7.3-blue)
 
