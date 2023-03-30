@@ -56,4 +56,4 @@ php artisan serve
 Agora você pode acessar a API no endereço `http://127.0.0.1:8000`.
 
 📚 Documentação
-Documentação detalhada da API está disponível em Wiki.
+Documentação detalhada da API está disponível em [Wiki](https://github.com/bmangilli/api_project/wiki).
